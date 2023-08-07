@@ -3,12 +3,11 @@ from pyrogram import Client, filters
 #from config import *
 
 try:
-    bot = Client('shortener bot',
+    bot = Client('notify bot',
                  api_id=int(20259272),
                  api_hash='1fabcb35e58a28a29b575b590160aec5',
-                 bot_token=',5951544679:AAEE5qPN1E257bSbRZ1NAIAOMyzSxOUoUac'
-                 workers=50,
-                 sleep_threshold=10)
+                 bot_token='5951544679:AAEE5qPN1E257bSbRZ1NAIAOMyzSxOUoUac'
+                 )
 except Exception:
     print("Add var values properly. Read readme.md once")
 
