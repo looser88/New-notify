@@ -1,6 +1,6 @@
 import aiohttp
 from pyrogram import Client, filters
-from config import *
+#from config import *
 
 try:
     bot = Client('shortener bot',
